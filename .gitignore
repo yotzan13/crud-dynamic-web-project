@@ -1,0 +1,27 @@
+# ⚠️ CUIDADO ⚠️ 
+
+# Ignorar configuraciones específicas de Eclipse que no son necesarias para importar el proyecto
+.settings/
+
+# Carpetas de compilación (no se deben versionar)
+build/
+bin/
+
+# Archivos temporales y del sistema
+*.log
+*.tmp
+*.bak
+*.swp
+.DS_Store
+Thumbs.db
+
+# Archivos de otros IDEs
+.idea/
+*.iml
+.vscode/
+
+# ⚠️ NOTA:
+# No estamos ignorando:
+# - .classpath
+# - .project
+# - lib/
